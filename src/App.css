@@ -246,3 +246,13 @@ section#misionesGenerales {
     padding: 2vh;
     background-color: rgba(0, 0, 0, 0.719);
 }
+
+@media (max-aspect-ratio: 16/8) {
+    #eras {
+        width: 75%;
+    }
+
+    section#misionesGenerales {
+        width: 25%;
+    }
+}
