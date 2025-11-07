@@ -16,7 +16,6 @@ function App() {
         "brillante-idea",
         "un-asunto-escamoso",
         "mejores-amigos-para-siempre",
-        "como-nuevo",
         "crecen-tan-rapido",
     ];
 
@@ -65,6 +64,7 @@ function App() {
         "heroe-de-la-aldea",
         "el-saqueador-saqueado",
         "sicario",
+        "como-nuevo",
         "discrecion100",
         "pesca-tactica",
         "el-depredador-mas-adorable",
