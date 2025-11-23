@@ -33,7 +33,6 @@ function App() {
 
     const logrosCobre = [
         "desarmadillo",
-        "trasplantador-de-corazones",
         "es-un-pajaro",
         "desafio-aceptado",
         "a-tomar-viento",
@@ -124,6 +123,7 @@ function App() {
         "libera-el-end",
         "el-end-de-nuevo",
         "la-nueva-generacion",
+        "trasplantador-de-corazones",
         "huida-conseguida",
         "la-ciudad-al-final-del-juego",
         "buenas-vistas-desde-lo-alto",
