@@ -176,7 +176,7 @@ section#erasContainer > section > h2 {
 }
 
 #eras {
-    width: 80%;
+    width: 90%;
 }
 
 .eraContainer {
@@ -208,7 +208,7 @@ section#erasContainer > section > h2 {
     gap: 2vh;
 }
 
-.retosContainer {
+/* .retosContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -218,7 +218,7 @@ section#erasContainer > section > h2 {
     height: 100%;
     border-radius: 1vh;
     padding: 1vh;
-}
+} */
 
 .logrosContainer {
     display: flex;
@@ -226,7 +226,8 @@ section#erasContainer > section > h2 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: start;
-    width: 95%;
+    gap: 1vh;
+    width: 100%;
     border: solid black 10px;
     height: 100%;
     border-radius: 1vh;
