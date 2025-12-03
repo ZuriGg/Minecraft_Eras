@@ -226,7 +226,7 @@ section#erasContainer > section > h2 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: start;
-    width: 80%;
+    width: 95%;
     border: solid black 10px;
     height: 100%;
     border-radius: 1vh;
@@ -235,7 +235,7 @@ section#erasContainer > section > h2 {
 /* ------------------- */
 
 section#misionesGenerales {
-    width: 21%;
+    width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;

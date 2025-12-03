@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
 
-    width: 42vh;
+    width: 53vh;
     margin: auto;
     margin-bottom: 1vh;
     border-radius: 1vh;
@@ -18,7 +18,7 @@
 .activeLogro {
     border: solid rgb(0, 255, 0) 20px;
     border-radius: 2.4vh;
-    height: 16.5vh;
+    height: 20.7vh;
 }
 
 .logroComponent > img {

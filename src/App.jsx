@@ -43,6 +43,7 @@ function App() {
         "huele-interesante",
         "pequeños-olfateos",
         "sembrando-el-pasado",
+        "esto-deberia-estar-en-un-museo",
     ];
 
     const logrosHierro = [
@@ -57,7 +58,6 @@ function App() {
         "fabricadores-fabricando-fabricadores",
         "se-propaga",
         "post-mortem",
-        "esto-deberia-estar-en-un-museo",
         "restauracion-meticulosa",
         "la-vieja-betsy",
         "heroe-de-la-aldea",
@@ -224,6 +224,29 @@ function App() {
                     <section id="eras">
                         {/* <h2>Edades de Minecraft</h2> */}
                         <section className="eraContainer">
+                            <h3>Logros generales</h3>
+                            <section>
+                                <section className="logrosContainer">
+                                    {logrosGenerales.map((logro) => (
+                                        <Logro
+                                            key={logro}
+                                            logro={logro}
+                                            activo={totalLogrosActivos.includes(
+                                                logro
+                                            )}
+                                            onToggle={() => toggleLogro(logro)}
+                                            audioRef={audioRef}
+                                        />
+                                    ))}
+                                </section>
+                                {/* <section className="retosContainer">
+                                    <article>
+                                        <h4>reto 1</h4>
+                                    </article>
+                                </section> */}
+                            </section>
+                        </section>
+                        <section className="eraContainer">
                             <h3>Edad de la Madera</h3>
                             <section>
                                 <section className="logrosContainer">
@@ -239,11 +262,11 @@ function App() {
                                         />
                                     ))}
                                 </section>
-                                <section className="retosContainer">
+                                {/* <section className="retosContainer">
                                     <article>
                                         <h4>reto 1</h4>
                                     </article>
-                                </section>
+                                </section> */}
                             </section>
                         </section>
 
@@ -263,9 +286,9 @@ function App() {
                                         />
                                     ))}
                                 </section>
-                                <section className="retosContainer">
+                                {/* <section className="retosContainer">
                                     <p>reto 1</p>
-                                </section>
+                                </section> */}
                             </section>
                         </section>
 
@@ -285,9 +308,9 @@ function App() {
                                         />
                                     ))}
                                 </section>
-                                <section className="retosContainer">
+                                {/* <section className="retosContainer">
                                     <p>reto 1</p>
-                                </section>
+                                </section> */}
                             </section>
                         </section>
 
@@ -307,9 +330,9 @@ function App() {
                                         />
                                     ))}
                                 </section>
-                                <section className="retosContainer">
+                                {/* <section className="retosContainer">
                                     <p>reto 1</p>
-                                </section>
+                                </section> */}
                             </section>
                         </section>
 
@@ -329,9 +352,9 @@ function App() {
                                         />
                                     ))}
                                 </section>
-                                <section className="retosContainer">
+                                {/* <section className="retosContainer">
                                     <p>reto 1</p>
-                                </section>
+                                </section> */}
                             </section>
                         </section>
 
@@ -351,9 +374,9 @@ function App() {
                                         />
                                     ))}
                                 </section>
-                                <section className="retosContainer">
+                                {/* <section className="retosContainer">
                                     <p>reto 1</p>
-                                </section>
+                                </section> */}
                             </section>
                         </section>
 
@@ -373,24 +396,11 @@ function App() {
                                         />
                                     ))}
                                 </section>
-                                <section className="retosContainer">
+                                {/* <section className="retosContainer">
                                     <p>reto 1</p>
-                                </section>
+                                </section> */}
                             </section>
                         </section>
-                    </section>
-
-                    <section id="misionesGenerales">
-                        <h2>Misiones generales</h2>
-                        {logrosGenerales.map((logro) => (
-                            <Logro
-                                audioRef={audioRef}
-                                key={logro}
-                                logro={logro}
-                                activo={totalLogrosActivos.includes(logro)}
-                                onToggle={() => toggleLogro(logro)}
-                            />
-                        ))}
                     </section>
                 </section>
             </main>
