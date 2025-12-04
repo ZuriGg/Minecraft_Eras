@@ -44,6 +44,9 @@ function App() {
         "pequeños-olfateos",
         "sembrando-el-pasado",
         "esto-deberia-estar-en-un-museo",
+        "pulir-cera",
+        "la-vieja-betsy",
+        "dar-cera",
     ];
 
     const logrosHierro = [
@@ -59,7 +62,6 @@ function App() {
         "se-propaga",
         "post-mortem",
         "restauracion-meticulosa",
-        "la-vieja-betsy",
         "heroe-de-la-aldea",
         "el-saqueador-saqueado",
         "sicario",
@@ -73,8 +75,6 @@ function App() {
         "jugada-maestra",
         "sobremazazo",
         "la-caja-de-pandora",
-        "dar-cera",
-        "pulir-cera",
     ];
 
     const logrosOro = [
